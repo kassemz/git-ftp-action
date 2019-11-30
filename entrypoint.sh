@@ -5,4 +5,5 @@ git ftp push \
   --syncroot $INPUT_SYNCROOT \
   --user $INPUT_USER \
   --passwd $INPUT_PASSWORD \
+  --insecure \
   $INPUT_URL
